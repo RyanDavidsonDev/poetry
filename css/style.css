@@ -359,54 +359,54 @@ textarea {
   margin-bottom: 4rem;
 }
 
-.projects__row {
+.poetry__row {
   grid-gap: 5rem;
   margin-bottom: 10rem;
   align-items: center;
 }
 @media only screen and (max-width: 56.25em) {
-  .projects__row {
+  .poetry__row {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
 }
 @media only screen and (max-width: 56.25em) {
-  .projects__row {
+  .poetry__row {
     text-align: center;
     list-style:none
   }
 }
 
-.projects__row:last-child {
+.poetry__row:last-child {
   margin-bottom: 5rem;
 }
-.projects__row-img-cont {
+.poetry__row-img-cont {
   overflow: hidden;
 }
-.projects__row-img {
+.poetry__row-img {
   width: 100%;
   padding-top: 1.5rem;
   display: block;
   object-fit: fill;
 }
-.projects__row-content {
+.poetry__row-content {
   display: flex;
   justify-content: center;
   flex-direction:column;
   align-items: center;
 }
 @media only screen and (max-width: 56.25em) {
-  .projects__row-content {
+  .poetry__row-content {
     align-items: center;
   }
 }
-.projects__row-content-title {
+.poetry__row-content-title {
   
   font-weight: 700;
   font-size: 2.8rem;
   margin-bottom: .75rem;
 }
-.projects__row-content-subtitle {
+.poetry__row-content-subtitle {
   
   font-weight: 550;
   color: rgb(70, 70, 70);
@@ -414,11 +414,11 @@ textarea {
   margin-bottom: .75rem;
 }
 @media only screen and (max-width: 37.5em) {
-  .projects__row-content-title {
+  .poetry__row-content-title {
     font-size: 2.4rem;
   }
 }
-.projects__row-content-desc {
+.poetry__row-content-desc {
   font-size: 1.8rem;
   color: grey;
   text-align: center;
@@ -427,7 +427,7 @@ textarea {
   margin-bottom: 1.5rem;
 }
 @media only screen and (max-width: 37.5em) {
-  .projects__row-content-desc {
+  .poetry__row-content-desc {
     font-size: 1.7rem;
   }
 }
@@ -832,7 +832,7 @@ textarea {
     font-size: 2.4rem;
   }
 }
-.project-details__row-content-desc {
+.project-details__row-content-desc-poetry {
   font-size: 1.8rem;
   color: grey;
   text-align: Center;
@@ -841,7 +841,7 @@ textarea {
   margin-bottom: 2rem;
 }
 @media only screen and (max-width: 37.5em) {
-  .project-details__row-content-desc {
+  .project-details__row-content-desc-poetry {
     font-size: 1.7rem;
   }
 }
